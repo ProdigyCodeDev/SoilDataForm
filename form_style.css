@@ -1,0 +1,114 @@
+html{
+    background-color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+.title-box{
+    display: flex;
+    background-color: aqua;
+    outline: auto;
+}
+
+.title-box > div{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+.macronutrient_levels{
+    display: flex;
+    outline: auto;
+}
+
+.macronutrient_levels > div{
+    padding-top: 3%;
+    padding-bottom: 13%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.macronutrient_levels > div >p{
+    font-size: medium;
+}
+
+.percent-comp{
+    display: flex;
+    outline: auto;
+
+
+}
+
+.percent-comp >div{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.user-info{
+    display: flex;
+    outline: auto;
+
+}
+
+.user-info >div{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.soil-data{
+    display: flex;
+    outline: auto;
+}
+
+.soil-data >div{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    width: 100%;
+    text-align: center;
+}
+
+.submit > input{
+    height: 30px;
+    width:40%;
+   
+}
+
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+   
+}
+
+.navbar a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    height: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+
+}
+
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="form_style.css">
+        <title>Soil Data Form </title>
+    </head>
+
+
+
+    <div class = 'navbar'>
+        <a class = 'active'
+            href = index.html>Home
+        </a>
+
+        <a href = enter_data.html>Soil Data Form</a>
+    </div>
+
+
+    <header>
+        <div class="title-box">
+            <div>Soil Data Form</div>
+        </div>
+    </header>
+    
+
+
+
+    <body>
+
+
+
+
+
+
+
+
+
+
+
+        <form>
+            <h2>Entry Information</h2>
+            <div class="user-info">
+
+                <div><h3>Name</h3>
+                    <input type="text">    
+                 </div>
+
+                 <div>
+                    <h3>Email</h3>
+                    <input type="email">       
+                 </div>
+
+                 <div> 
+                    <h3>Date and Time</h3>
+                    <input type = "datetime-local"> </div>
+            </div>
+
+        </form>
+
+
+        <form>
+
+            <h2>Macronutrient Levels</h2>
+
+            <div class="macronutrient_levels">
+                <div><p>Nitrogen Level</p>
+                    <select>
+                        <option value="Adequate">Adequate</option>
+                        <option value="Defficient">Surplus</option>
+                        <option value="Depleted">Depleted</option>
+                        <option value="Surpus">Defficient</option>
+                        <option value="Sufficient">Sufficient</option>
+                    </select>
+                </div>
+
+                <div><p>Phosphorus</p>
+                    <select>
+                    <option value="Adequate">Adequate</option>
+                    <option value="Defficient">Surplus</option>
+                    <option value="Depleted">Depleted</option>
+                    <option value="Surpus">Defficient</option>
+                    <option value="Sufficient">Sufficient</option>
+                </select>
+            </div>
+
+                <div><p>Potasium</p>
+                    <select>
+                    <option value="Adequate">Adequate</option>
+                    <option value="Defficient">Surplus</option>
+                    <option value="Depleted">Depleted</option>
+                    <option value="Surpus">Defficient</option>
+                    <option value="Sufficient">Sufficient</option>
+                </select></div>
+            </div>
+
+        </form>
+
+
+        <form>
+            <h2>Soil Percent Composition</h2>
+
+            <div class="percent-comp">
+               
+                <div>
+                    <p>Soil Sample Sand Percent</p>
+                    <input type="number" max="100" min="0">
+                </div>
+
+                <div>
+                    <p>Soil Sample Silt Percent</p>
+                    <input type="number" max="100" min="0">
+                </div>
+
+                <div>
+                    <p>Soil Sample Clay Percent</p>
+                    <input type="number" max="100" min="0" >
+                </div>
+            </div>
+      
+
+        </form>
+
+        <form>
+            <h2>Soil Data</h2>
+            <div class="soil-data">
+                <div>
+                    <p>Sample Location Coordinates</p>
+                    <input type="text">
+                </div>
+                <div>
+                    <p>Sample PH</p>
+                    <input type="number">
+                </div>
+                
+            
+            </div>
+
+            <div class="soil-data">
+                <div><p>Attach qPCR Data File</p>
+                    <input type="file">
+                
+                </div>
+                <div>
+                    <p>Additional Notes</p>
+                    <input type="text" id="notesbox" >
+                
+                     </div>
+            </div>
+            <div class="submit">
+                <input type="submit" id="submit-button">
+            </div>
+            
+        </form>
+
+
+
+    </body>
+
+
+
+</html>
